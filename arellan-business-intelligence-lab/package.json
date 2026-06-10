@@ -1,0 +1,17 @@
+{
+  "name": "@arellan-hnos/business-intelligence-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Contratos analiticos (TypeScript) del Reporte Ejecutivo Gerencial - espejo canonico de los tipos consumidos por arellan-platform y arellan-mobile-app",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
